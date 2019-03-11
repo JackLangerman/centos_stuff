@@ -37,5 +37,9 @@ chmod 600 ~/.ssh/id_ecdsa
 
 echo ". ~/miniconda/etc/profile.d/conda.sh" >> ~/.bashrc
 . ~/.bashrc
+
+conda update -n base -c defaults conda
+
+
 # conda env create
 # conda env update -f environment.yml
