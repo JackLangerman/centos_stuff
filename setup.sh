@@ -35,7 +35,7 @@ chmod 600 ~/.ssh/id_ecdsa
 #git clone git@gitlab.com:JackLangerman/tv_show_understanding.git
 #cd tv_show_understanding
 
-printf '\nexport PATH="$HOME/miniconda/bin:$PATH"\n\n' >> ~/.bashrc 
+echo ". ~/miniconda/etc/profile.d/conda.sh" >> ~/.bashrc
 . ~/.bashrc
 # conda env create
 # conda env update -f environment.yml
